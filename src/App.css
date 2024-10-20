@@ -1,0 +1,30 @@
+.wrapp{
+  display: flex;
+  justify-content: space-between;
+
+}
+.cantainer {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1400px;
+}
+.burger{
+  display: none;
+  @media (max-width: 900px) {
+    display: block;
+  }
+}
+.header__menu{
+a{
+margin: 20px;
+font-size: 20px;
+color: black;
+
+text-decoration: none;
+text-transform: uppercase;
+}
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
